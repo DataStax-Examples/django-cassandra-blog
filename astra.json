@@ -1,0 +1,12 @@
+{
+  "name": "Build a Blog With Django and Astra DB",
+  "description": "Learn how to build a blog application with Django and connect it to Astra DB by following along with Tomi's video.",
+  "duration": "15 minutes",
+  "skillLevel": "Intermediate",
+  "githubUrl": "https://github.com/DataStax-Examples/django-cassandra-blog",
+  "heroImage": "https://raw.githubusercontent.com/DataStax-Examples/django-cassandra-blog/master/hero.png",
+  "gitpodUrl": "https://gitpod.io/#https://github.com/DataStax-Examples/django-cassandra-blog",
+  "tags": [{ "name": "python" }, { "name": "django" }, { "name": "video" }],
+  "category": "apps",
+  "priority": 2
+}
