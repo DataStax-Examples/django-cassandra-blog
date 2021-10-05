@@ -1,6 +1,6 @@
 <!--- STARTEXCLUDE --->
 # Build a Blog With Django and Astra DB
-*15 minutes, Intermediate, [Start Building](https://github.com/DataStax-Examples/django-cassandra-blog/blob/master/README.md#prerequisites)*
+*15 minutes, Intermediate, [Start Building](https://github.com/DataStax-Examples/django-cassandra-blog/blob/master/README.md#quick-start)*
 
 Learn how to build a blog application with Django and connect it to Astra DB by following along with Tomi's video, located [here](https://youtu.be/JH24exA7-CA).
 <!--- ENDEXCLUDE --->
@@ -14,7 +14,7 @@ Learn how to build a blog application with Django and connect it to Astra DB by 
 <!--- ENDEXCLUDE --->
 * [Create an Astra DB Keyspace](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#create-an-astra-db-keyspace) called `sag_tech_blog` in your database.
 * [Generate an Application Token](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#create-an-application-token) with the role of `Database Administrator` for the Organization that your Astra DB is in.
-* Click the 'Open in Gitpod' link: [![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/astra-nodejs-starter)
+* Click the 'Open in Gitpod' link: [![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/django-cassandra-blog)
 * Once the app is finished launching in the Gitpod IDE, copy the `env.example` file to a file named `.env` and fill the required values in from your Application Token and [Astra DB connection settings](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#get-your-astra-db-connection-settings).
 * Get your [secure connect bundle](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#get-an-astra-db-secure-connect-bundle) from the connect page of your database and upload it to your Gitpod instance. Rename it to `bundle.zip`
 * Create the project tables in Astra DB by running this command in the console:
