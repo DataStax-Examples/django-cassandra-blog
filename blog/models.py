@@ -4,6 +4,7 @@ from datetime import datetime
 from cassandra.cqlengine import columns
 from django_cassandra_engine.models import DjangoCassandraModel
 
+
 class PostModel(DjangoCassandraModel):
     id = columns.UUID(primary_key=True, default=uuid.uuid4)
     title = columns.Text(required=True)

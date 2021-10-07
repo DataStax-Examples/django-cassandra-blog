@@ -96,7 +96,9 @@ DATABASES = {
         'NAME': 'tech_blog',
         'OPTIONS': {
             'connection': {
-                'auth_provider': PlainTextAuthProvider(config("CLIENT_ID"), config("CLIENT_SECRET")),
+                'auth_provider': PlainTextAuthProvider(
+                    config("CLIENT_ID"), config("CLIENT_SECRET")
+                ),
                 'cloud': {
                     'secure_connect_bundle': config("BUNDLE_PATH")
                 }

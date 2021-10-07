@@ -29,15 +29,15 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/">Home</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li> -->
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about">About</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li> -->
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="newpost">New Post</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/home-bg.jpg')">
+        <header class="masthead" style="background-image: url({% static 'assets/img/home-bg.jpg' %})">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
@@ -58,14 +58,14 @@
 
                     <!-- Post preview-->
                     <div class="post-preview">
-                        <a href="/posts/{{post.3}}">
-                            <h2 class="post-title">{{post.0}}</h2>
-                            <h3 class="post-subtitle">{{post.1|truncatewords:13}}</h3>
+                        <a href="/posts/{{post.id}}">
+                            <h2 class="post-title">{{post.title}}</h2>
+                            <h3 class="post-subtitle">{{post.body|truncatewords:13}}</h3>
                         </a>
                         <p class="post-meta">
-                            Posted 
+                            Posted
                             <!-- <a href="#!">Start Bootstrap</a> -->
-                            on {{post.2}}
+                            on {{post.created_at|time}}
                         </p>
                     </div>
                     <!-- Divider-->
