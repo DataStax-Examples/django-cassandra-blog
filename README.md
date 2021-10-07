@@ -5,7 +5,7 @@
 Learn how to build a blog application with Django and connect it to Astra DB by following along with Tomi's video, located [here](https://youtu.be/JH24exA7-CA).
 <!--- ENDEXCLUDE --->
 
-![image](https://raw.githubusercontent.com/DataStax-Examples/django-cassandra-blog/master/hero.png)
+![image](hero.png)
 
 ## Quick Start
 <!--- STARTEXCLUDE --->
