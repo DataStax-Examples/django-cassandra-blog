@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'techblog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django_cassandra_engine',
-        'NAME': 'tech_blog',
+        'NAME': 'sag_tech_blog',
         'OPTIONS': {
             'connection': {
                 'auth_provider': PlainTextAuthProvider(
